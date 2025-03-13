@@ -1,14 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 2.0;
     margin: 0;
     padding: 0;
-    background-color: #98D2C0;
+    background-color: #F7F7F7;
+    color: #FDFBEE; 
+}
+
+
+text {
+    color: #FDFBEE; 
 }
 
 header {
     background: #205781;
-    color: #ffffff;
+    color: #FDFBEE; 
     padding: 20px 0;
     text-align: center;
 }
@@ -25,13 +31,13 @@ header {
 }
 
 nav {
-    background: #98D2C0;
+    background: #205781;
     text-decoration: none;
 }
 
 nav ul {
     padding: 0;
-    background: #98D2C0;
+    background: #205781;
     list-style: none;
 }
 
@@ -40,16 +46,21 @@ nav ul li {
     margin: 0 15px;
 }
 
+p {
+    color: #FDFBEE; 
+}
+
 nav ul li a {
-    color: #205781;
+    color: #FDFBEE; 
     text-decoration: none;
 }
 
 section {
     padding: 20px;
     margin: 20px;
-    background: #98D2C0;
+    background: #205781;
     border-radius: 5px;
+    color: #FDFBEE; 
 }
 
 .social-media {
@@ -65,6 +76,6 @@ section {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #98D2C0;
-    color: #ffffff;
+    background: #205781;
+    color: #FDFBEE; 
 }
