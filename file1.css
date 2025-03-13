@@ -9,7 +9,7 @@ body {
     background-color: #f4f4f4;
     color: #f4f4f4;
 }
-
+    
 header {
     background-color: #98D2C0;
     color: #205781;
@@ -52,6 +52,11 @@ section {
     padding: 40px 20px;
     text-align: center;
 }
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #205781;
+  }
 
 #about {
     background-color: #205781;
