@@ -1,92 +1,70 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #f4f4f4;
-}
-    
-header {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
     background-color: #98D2C0;
-    color: #205781;
-    padding: 10px 0;
 }
 
-.nav-container nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-.nav-container nav ul li {
-    margin: 0 20px;
-}
-
-.nav-container nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-#hero {
-    background-color: #205781;
-    color: white;
-    padding: 60px 0;
+header {
+    background: #205781;
+    color: #ffffff;
+    padding: 20px 0;
     text-align: center;
 }
 
-#hero h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
+.logo{
+    border: 1px solid #205781;
 }
 
-#hero p {
-    font: size 30px;
-}
-
-section {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.jumbotron {
-    padding-top: 6rem;
-    background-color: #205781
-    color:#F6F8D5
-  }
-
-#about {
-    background-color: #205781;
-}
-
-#projects {
-    background-color: #205781;
-}
-
-.projects-container {
-    display: flex;
-    justify-content: space-around;
+.img-desc {
+    display: flex !important;
+    flex-direction: row;
+    flex: 1;
     gap: 15px;
 }
 
-.project {
-    background-color: #205781;
-    color: #205781;
-    padding: 15px;
-    width: 25%;
+nav {
+    background: white;
+    text-decoration: none;
 }
 
-#contact {
-    background-color: #205781;
+nav ul {
+    padding: 0;
+    background: #98D2C0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #205781;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px;
 }
 
 footer {
-    background-color: #98D2C0;
-    color: #205781;
     text-align: center;
-    padding: 15px 0;
+    padding: 10px 0;
+    background: #000000;
+    color: #ffffff;
 }
