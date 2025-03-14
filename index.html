@@ -4,194 +4,122 @@
     <script type="module" src="https://cdn.jsdelivr.net/gh/domyid/tracker@latest/index.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Responsive website</title>
+    <title>Portfolio Responsive Website</title>
     <link rel="stylesheet" href="model.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-
     <header class="header">
-        <a href="#home" class="logo">Raihan 
-            <span>Hidayat</span></a>
-
-            <box-icon name='menu' id="menu-icon"></box-icon>
-
-            <nav class="navbar">
-                <a href="#home" class="active">Home</a>
-                <a href="#education">Education</a>
-                <a href="#project">Project</a>
-                <a href="#contact">Contact</a>
-            </nav>
+        <a href="#home" class="logo">Raihan <span>Hidayat</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i> <!-- Memperbaiki ikon menu -->
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <section class="Home" id="home">
+    <section class="home" id="home"> <!-- Memperbaiki kelas section "Home" menjadi "home" -->
         <div class="home-content">
-            <h1> <span>Welcome to My website</span></h1>
+            <h1><span>Welcome to My Website</span></h1>
             <h1>Hi, It's <span>Raihan</span></h1>
-            <h3 class="text-animation">I'm a IT Implementor dengan pengalaman di berbagai proyek teknologi <span></span></h3>
-            <p>Merupakan anak pertama dari empat bersaudara 
-            dan Saya lahir di ParePare,02 September 2005. 
-            saya dari Kabupaten Pinrang, Sulawesi Selatan,saat SMA, di SMA 7 Pinrang saya pernah mengemban suatu amanah yaitu menjabat sebagai ketua osis selama satu periode yaitu <br>2022 hingga 2023,dari saat itu saya mendapat banyak sekali pengalaman berorganisasi yang 
-            tidak saya dapatkan didalam ruang kelas pada saat itu dan saat saya lulus SMA pada tahun 2024, saya kemudian melanjutkann pendidikan saya sebagai Mahasiswa disalah satu universitas DiBandung, dengan program studi D4 Teknik Informatika 
-             Universitas Logistik dan Bisnis Internasional Bandung.</p>
-
+            <h3 class="text-animation">I'm an IT Implementor with experience in various technology projects<span></span></h3>
+            <p>Merupakan anak pertama dari empat bersaudara. Saya lahir di Parepare, 02 September 2005. Saya berasal dari Kabupaten Pinrang, Sulawesi Selatan. Saat SMA, di SMA 7 Pinrang, saya pernah menjabat sebagai ketua OSIS selama satu periode (2022-2023). Dari pengalaman tersebut, saya banyak belajar tentang organisasi yang tidak bisa saya dapatkan di dalam kelas. Setelah lulus SMA pada tahun 2024, saya melanjutkan pendidikan di Universitas Logistik dan Bisnis Internasional (ULBI) Bandung, program studi D4 Teknik Informatika.</p>
             <div class="social-icons">
-                <a href="#"><i class='bx 
-                    bxl-github'></i></a>
-                <a href="#"><i class='bx 
-                    bxl-instagram-alt' ></i></a>
-                <a href="#"><i class='bx 
-                    bxl-google'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-google'></i></a>
             </div>
-
             <div class="btn-group">
-                <a href="#" class="btn">Hirec</a>
+                <a href="#" class="btn">Hire Me</a> <!-- Memperbaiki teks tombol -->
                 <a href="#contact" class="btn">Contact</a>
             </div>
         </div>
-
-            <div class="home-img">
-                <img src="img1.jpeg" alt="">
-           </div>
-
+        <div class="home-img">
+            <img src="img1.jpeg" alt="Profile Image">
+        </div>
     </section>
 
     <section class="education" id="education">
         <h2 class="heading">Education</h2>
-
         <div class="timeline-items">
-
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">2011-2017</div>
-                <div class="timeline-content">
-                    <h3>SD 80 PINRANG</h3>
-                </div>
+                <div class="timeline-content"><h3>SD 80 PINRANG</h3></div>
             </div>
-            
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">2018-2021</div>
-                <div class="timeline-content">
-                    <h3>SMP 8 PINRANG</h3>
-                </div>
+                <div class="timeline-content"><h3>SMP 8 PINRANG</h3></div>
             </div>
-
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">2021-2024</div>
-                <div class="timeline-content">
-                    <h3>SMA 7 PINRANG</h3>
-                </div>
+                <div class="timeline-content"><h3>SMA 7 PINRANG</h3></div>
             </div>
-
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">2024-NOW</div>
-                <div class="timeline-content">
-                    <h3>Universitas Logistik dan Bisnis Internasional (ULBI)</h3>
-                </div>
+                <div class="timeline-content"><h3>Universitas Logistik dan Bisnis Internasional (ULBI)</h3></div>
             </div>
         </div>
     </section>
 
-    <section class="service" id="service">
-        <h2 class="heading">Project</h2>
-
+    <section class="service" id="project"> <!-- Memperbaiki ID agar sesuai dengan menu -->
+        <h2 class="heading">Projects</h2>
         <div class="service-container">
-
             <div class="service-box">
                 <div class="service-info">
-                    <h4>Proyek 1</h4>
-                    <p>sfsdffgdfgdf</p>
+                    <h4>Project 1</h4>
+                    <p>Deskripsi proyek 1.</p>
                 </div>
             </div>
-
             <div class="service-box">
                 <div class="service-info">
-                    <h4>Proyek 2</h4>
-                    <p>sfsdffgdfgdf</p>
+                    <h4>Project 2</h4>
+                    <p>Deskripsi proyek 2.</p>
                 </div>
             </div>
-
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Proyek 3</h4>
-                    <p>sfsdffgdfgdf</p>
-                </div>
-            </div>
-
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Proyek 4</h4>
-                    <p>sfsdffgdfgdf</p>
-                </div>
-            </div>
-
         </div>
     </section>
 
-    <section class="Contact" id="Contact">
+    <section class="contact" id="contact"> <!-- Memperbaiki ID "Contact" menjadi lowercase sesuai CSS -->
         <h2 class="heading">Contact <span>Me</span></h2>
-
-        <form action="">
+        <form action="#">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text"
-                    placeholder="Full Name">
-                    <input type="email"
-                    placeholder="Email"> 
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
                 </div>
                 <div class="input-box">
-                    <input type="number"
-                    placeholder="Phone Number">
-                    <input type="text"
-                    placeholder="Subject">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
                 </div>
             </div>
-
             <div class="input-group-2">
-                <textarea name="" id="" cols="30"
-                rows="10"placeholder="Your 
-                Message"></textarea>
-                <input type="submit" value="Send 
-                Message" class="btn">
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
             </div>
         </form>
     </section>
 
     <footer class="footer">
         <div class="social">
-
-            <a href="#"><i class='bx 
-                bxl-github'></i></a>
-            <a href="#"><i class='bx 
-                bxl-instagram-alt' ></i></a>
-            <a href="#"><i class='bx 
-                bxl-google'></i></a>
-
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-google'></i></a>
         </div>
-
         <ul class="list">
-            <li>
-                <a href="#">FAQ</a>
-            </li>
-            <li>
-                <a href="#">Service</a>
-            </li>
-            <li>
-                <a href="#">About Me</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
         <p>&copy; 2025 Raihan. All Rights Reserved.</p>
-        
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
-
-
