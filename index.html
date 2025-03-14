@@ -4,76 +4,194 @@
     <script type="module" src="https://cdn.jsdelivr.net/gh/domyid/tracker@latest/index.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio </title>
-    <link rel="stylesheet" href="file1.css">
+    <title>Portofolio Responsive website</title>
+    <link rel="stylesheet" href="model.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header>
-        <h1>"Solusi IT Canggih untuk Bisnis yang Lebih Cepat dan Lebih Cerdas."</h1>
-       <h2> 
+
+    <header class="header">
+        <a href="#home" class="logo">Raihan 
+            <span>Hidayat</span></a>
+
+            <box-icon name='menu' id="menu-icon"></box-icon>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#education">Education</a>
+                <a href="#project">Project</a>
+                <a href="#contact">Contact</a>
+            </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">Tentang</a></li>
-            <li><a href="#projects">Proyek</a></li>
-            <li><a href="#contact">Kontak</a></li>
-        </ul>
-    </nav>
-
-    <section id="about">
-        <h2>Tentang Saya</h2>
-        <h2>M RAIHAN HIDAYAT A</h2>
-        <div class="img-desc">
-            <img src="image/image.jpeg" 
-            class="logo"
-            width="150"
-            height="180">
+    <section class="Home" id="home">
+        <div class="home-content">
+            <h1> <span>Welcome to My website</span></h1>
+            <h1>Hi, It's <span>Raihan</span></h1>
+            <h3 class="text-animation">I'm a IT Implementor dengan pengalaman di berbagai proyek teknologi <span></span></h3>
             <p>Merupakan anak pertama dari empat bersaudara 
-             dan Saya lahir di ParePare,02 September 2005. 
-             saya dari Kabupaten Pinrang, Sulawesi Selatan,saat SMA, di SMA 7 Pinrang saya pernah mengemban suatu amanah yaitu menjabat sebagai ketua osis selama satu periode yaitu <br>2022 hingga 2023,dari saat itu saya mendapat banyak sekali pengalaman berorganisasi yang 
-             tidak saya dapatkan didalam ruang kelas pada saat itu dan saat saya lulus SMA pada tahun 2024, saya kemudian melanjutkann pendidikan saya sebagai Mahasiswa disalah satu universitas DiBandung, dengan program studi D4 Teknik Informatika 
-             Universitas Logistik dan Bisnis Internasional Bandung.</p> 
+            dan Saya lahir di ParePare,02 September 2005. 
+            saya dari Kabupaten Pinrang, Sulawesi Selatan,saat SMA, di SMA 7 Pinrang saya pernah mengemban suatu amanah yaitu menjabat sebagai ketua osis selama satu periode yaitu <br>2022 hingga 2023,dari saat itu saya mendapat banyak sekali pengalaman berorganisasi yang 
+            tidak saya dapatkan didalam ruang kelas pada saat itu dan saat saya lulus SMA pada tahun 2024, saya kemudian melanjutkann pendidikan saya sebagai Mahasiswa disalah satu universitas DiBandung, dengan program studi D4 Teknik Informatika 
+             Universitas Logistik dan Bisnis Internasional Bandung.</p>
+
+            <div class="social-icons">
+                <a href="#"><i class='bx 
+                    bxl-github'></i></a>
+                <a href="#"><i class='bx 
+                    bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx 
+                    bxl-google'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hirec</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
         </div>
-        
+
+            <div class="home-img">
+                <img src="img1.jpeg" alt="">
+           </div>
+
     </section>
 
-    <section id="projects">
-            <h2>Proyek</h2>
-            <div class="projects-container">
-                <!-- Proyek 1 -->
-                <div class="project">
-                    <h3>Proyek 1</h3>
-                    <li><a href="https://youtu.be/pUCdLKqBWY4?si=FovDjqFVCB6Cz4QP">Proyek 1</a> - Proyek ini adalah proyek pertama 
-                        saya dalam bidang seni budaya,tujuan vidio untuk penilaian Semester kelas XII.</li>
-                </div>
-                <!-- Proyek 2 -->
-                <div class="project">
-                    <h3>Proyek 2</h3>
-                    <li><a href="https://github.com/Raihanhidayat02">Proyek 2</a> - platform berbasis web yang digunakan untuk mengelola proyek perangkat lunak dan kolaborasi kode. 
-                        Ini menggunakan sistem kontrol versi Git.</li>
-                </div>
-                <!-- Proyek 3 -->
-                <div class="project">
-                    <h3>Proyek 3</h3>
-                    <li><a href="https://sites.google.com/view/webraihan0502/beranda">Proyek 3</a> - Ini adalah Proyek google site yang sementara saya kerjakan.</li>
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2011-2017</div>
+                <div class="timeline-content">
+                    <h3>SD 80 PINRANG</h3>
                 </div>
             </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018-2021</div>
+                <div class="timeline-content">
+                    <h3>SMP 8 PINRANG</h3>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021-2024</div>
+                <div class="timeline-content">
+                    <h3>SMA 7 PINRANG</h3>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024-NOW</div>
+                <div class="timeline-content">
+                    <h3>Universitas Logistik dan Bisnis Internasional (ULBI)</h3>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Kontak</h2>
-        <p>Anda dapat menghubungi saya melalui sosial media berikut:</p>
-        <ul class="social-media">
-            <li><a href="https://github.com/Raihanhidayat02" target="_blank">Github</a></li>
-            <li><a href="https://www.instagram.com/_momots391" target="_blank">Instagram</a></li>
+    <section class="service" id="service">
+        <h2 class="heading">Project</h2>
+
+        <div class="service-container">
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Proyek 1</h4>
+                    <p>sfsdffgdfgdf</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Proyek 2</h4>
+                    <p>sfsdffgdfgdf</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Proyek 3</h4>
+                    <p>sfsdffgdfgdf</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Proyek 4</h4>
+                    <p>sfsdffgdfgdf</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="Contact" id="Contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text"
+                    placeholder="Full Name">
+                    <input type="email"
+                    placeholder="Email"> 
+                </div>
+                <div class="input-box">
+                    <input type="number"
+                    placeholder="Phone Number">
+                    <input type="text"
+                    placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30"
+                rows="10"placeholder="Your 
+                Message"></textarea>
+                <input type="submit" value="Send 
+                Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+
+            <a href="#"><i class='bx 
+                bxl-github'></i></a>
+            <a href="#"><i class='bx 
+                bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx 
+                bxl-google'></i></a>
+
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Service</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
         </ul>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Raihan. All Rights Reserved.</p>
+        <p class="copyright"></p>
+        
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+
+
