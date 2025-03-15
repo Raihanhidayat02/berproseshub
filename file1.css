@@ -247,14 +247,14 @@ span {
     }
 }
 
-@keyframes typing {
+/* @keyframes typing {
     10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
         width: 0;
     }
     5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
         width: calc(100% + 8px);
     }
-}
+} */
 
 .heading {
     font-size: 8rem;
