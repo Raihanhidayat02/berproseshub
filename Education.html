@@ -5,11 +5,43 @@
     <script type="module" src="https://cdn.jsdelivr.net/gh/domyid/tracker@latest/index.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education</title>
+    <title>Portfolio Responsive Website</title>
     <link rel="stylesheet" href="file1.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <header class="header">
+        <a href="#home" class="logo">Raihan <span>Hidayat</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i> <!-- Memperbaiki ikon menu -->
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">Education</a>
+            <a href="#">Project</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home"> <!-- Memperbaiki kelas section "Home" menjadi "home" -->
+        <div class="home-content">
+            <h1><span>Welcome to My Website</span></h1>
+            <h1>Hi, It's <span>Raihan</span></h1>
+            <h3 class="text-animation">I'm an IT Implementor with experience in various technology projects<span></span></h3>
+            <p>Merupakan anak pertama dari empat bersaudara. Saya lahir di Parepare, 02 September 2005. Saya berasal dari Kabupaten Pinrang, Sulawesi Selatan. Saat SMA, di SMA 7 Pinrang, saya pernah menjabat sebagai ketua OSIS selama satu periode (2022-2023). Dari pengalaman tersebut, saya banyak belajar tentang organisasi yang tidak bisa saya dapatkan di dalam kelas. Setelah lulus SMA pada tahun 2024, saya melanjutkan pendidikan di Universitas Logistik dan Bisnis Internasional (ULBI) Bandung, program studi D4 Teknik Informatika.</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-google'></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire Me</a> <!-- Memperbaiki teks tombol -->
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="image/img1.jpeg" alt="Profile Image">
+        </div>
+    </section>
+
     <section class="education" id="education">
         <h2 class="heading">Education</h2>
         <div class="timeline-items">
@@ -36,5 +68,59 @@
         </div>
     </section>
 
+    <section class="service" id="project"> <!-- Memperbaiki ID agar sesuai dengan menu -->
+        <h2 class="heading">Projects</h2>
+        <div class="service-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Project 1</h4>
+                    <p>Deskripsi proyek 1.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Project 2</h4>
+                    <p>Deskripsi proyek 2.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact"> <!-- Memperbaiki ID "Contact" menjadi lowercase sesuai CSS -->
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-google'></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p>&copy; 2025 Raihan. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
