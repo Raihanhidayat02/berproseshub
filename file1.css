@@ -230,20 +230,23 @@ span {
 }
 
 @keyframes words {
-    0%, 20% {
+    0%, 15% {
         content: "frontend Designer";
     }
-    21%, 40% {
-        content: "Web Designer";
+    16%, 30% {
+        content: "Canva";
     }
-    41%, 60% {
+    31%, 46% {
         content: "Web UI / UX Designer";
     }
-    61%, 80% {
+    47%, 62% {
         content: "Web Developer";
     }
-    81%, 100% {
+    63%, 78% {
         content: "Software Tester";
+    }
+    79%, 100% {
+        content: "CapCut";
     }
 }
 
